@@ -12,7 +12,7 @@
 1.Example: Add three numbers.  
 
 
-2.Exercise1: Calculate `sinh(x)`.
+2.Exercise1: Calculate $sinh(x)$.
 
 
 3.Exercise10: generate variety or error messages. 
@@ -27,15 +27,13 @@
 6.Exercise13: Find indexes of elements within array that satisfy: $|A[i] - a| < eps$.   
 
 
-7.Exercise14: Modify the values of an array such that they satisfy: min < val < max. 
+7.Exercise14: Modify the values of an array such that they satisfy: $min < val < max$. 
 
 
-8.Exercise14b:Script applying [boundedA] = myBoundingArray(A, top, bottom).
+8.Exercise14b:Script applying `[boundedA] = myBoundingArray(A, top, bottom)`.
 
 
-9.Exercise2: Create a matrix filled with 1's 
-
-% in checker board pattern.
+9.Exercise2: Create a matrix filled with 1's in checker board pattern.
 
 
 10.Exercise3: Calculate area of a triangle.
@@ -82,7 +80,7 @@
 3.Exercise3: Find whether a point is inside, outside or on the boundary of a regular polygon.
 
 
-4.Exercise3b:Script for testing  Function [S] = myInsidePolygon(polygon, point)
+4.Exercise3b:Script for testing  Function `[S] = myInsidePolygon(polygon, point)`.
 
 
 5.Exercise4: Modify an array to specific length, padded with 0's at end / trimmed if necessay.
@@ -91,7 +89,7 @@
 6.Exercise5: Modify an array to specific length, padded with 0's at end / trimmed if necessay. No if else statements.
 
 
-7.Exercise6: Represent a grade as a letter, [A+, F], based on a  given percentage [0, 100]. (Map 40 to 12.) 
+7.Exercise6: Represent a grade as a letter, `[A+, F]`, based on a  given percentage `[0, 100]`. (Map 40 to 12.) 
 
 
 8.Exercise7: Verify if sensor readings are measuring same variable.
@@ -100,7 +98,7 @@
 9.Exercise8: Find the roots of a quadratic equation over \mathcal{C}.  
 
 
-10.Exercise9: Define a piecewise function according to: f(x) if x <= a; g(x) if x >= b, and 0 otherwise. 
+10.Exercise9: Define a piecewise function according to: $f(x) if x <= a; g(x) if x >= b$, and $0$ otherwise. 
 
 
 11.TryIt1: Make a thermostat switch based on temperature readings.  
@@ -120,13 +118,13 @@
 2.Exercise11: Find first N Fibonacci that are also Primes.
 
 
-3.Exercise12: Create a matrix, Q, where if M(i,j) - even, Q(i,j) = sin( pi / M(i, j) ); cos( pi / M(i, j) ) otherwise.     
+3.Exercise12: Create a matrix, $Q$, where if $M(i,j)$ - even, $Q(i,j) = sin( pi / M(i, j) )$; $cos( pi / M(i, j) )$ otherwise.     
 
 
 4.Exercise13: Construct a Adjacency List from Adjacency Matrix (from nodes of unidirected graph). 
 
 
-5.Exercise13b:Script for applying [node] = myConnectivityMat2Struct(C, names).
+5.Exercise13b:Script for applying `[node] = myConnectivityMat2Struct(C, names)`.
 
 
 6.Exercise2: write custom function to find max element in array of doubles. 
@@ -135,13 +133,13 @@
 7.Exercise3: Find the M largest array elements.   
 
 
-8.Exercise4: Create a matrix, M, with values equal to sin( A(i,j) ), if value at A(i,j) - even or cos( A(i,j) ), if odd.  
+8.Exercise4: Create a matrix, $M$, with values equal to $sin( A(i,j) )$, if value at $A(i,j)$ - even or $cos( A(i,j) )$, if odd.  
 
 
 9.Exercise5: Implement matrix multiplication.   
 
 
-10.Exercise5b:Script applying [M] = myMatMult(P,Q)
+10.Exercise5b:Script applying `[M] = myMatMult(P,Q)`.
 
 
 11.Exercise6: Years needed to achieve final balance based on initial balance and interest rate.   
@@ -153,7 +151,7 @@
 13.Exercise8: Simulate rolling two dice. (Roll again if same and sum altogether.)  
 
 
-14.Exercise8b:Script for testing: [roll] = myMonopolyDice().
+14.Exercise8b:Script for testing: `[roll] = myMonopolyDice()`.
 
 
 15.Exercise9: Find if n is prime by trial division.   
@@ -179,20 +177,18 @@
 5.Exercise15: Sort an integer array using iterative Quick Sort.  
 
 
-6.Exercise2: Obtain T_n(x) (n-th Chebyshev polynomial of 1st kind) from the recurrence relation: T_n(x) = 2*x*T_n-1(x) + T_n-2(x), with: T_0 = 1, T_1 = x.   
+6.Exercise2: Obtain $T_n(x)$ (n-th Chebyshev polynomial of 1st kind) from the recurrence relation: $T_n(x) = 2*x*T_n-1(x) + T_n-2(x)$, with: $T_0 = 1, T_1 = x$.   
 
 
-7.Exercise2b:Script for ploting various orders of Chebyshev Polynomials of first kind
+7.Exercise2b: Script for ploting various orders of Chebyshev Polynomials of first kind
 
 
-8.Exercise3: Obtain Ackerman function from the recurrence relation:
-
-% A(x,y) = A(x - 1, A(x, y - 1)), with A(0,y) = y + 1 and A(x, 0) = A(x - 1, 1).  
+8.Exercise3: Obtain Ackerman function from the recurrence relation: $A(x,y) = A(x - 1, A(x, y - 1))$, with $A(0,y) = y + 1$ and $A(x, 0) = A(x - 1, 1)$.  
 
 
 9.Exercise4: Calculate combinations of k elements out of set containing n.
 
-% from the recurrence relation: C(n, k) = C(n - 1, k - 1) + C(n - 1, k), with C(j, j) = 1 and C(n, 0) = 1.
+% from the recurrence relation: $C(n, k) = C(n - 1, k - 1) + C(n - 1, k)$, with $C(j, j) = 1$ and $C(n, 0) = 1$.
 
 
 10.Exercise5: Express amount of money in terms of the values
@@ -200,14 +196,12 @@
 % in dollar denominations: banknotes: 100, 50, 20, 10, 5, 1; coins: 0.25, 0.10, 0.05, 0.01.
 
 
-11.Exercise6: Calculate the Golden Ratio from 
-
-% the continued fraction: G(n) = 1 + 1 / G(n -1), with G(1) = 1; 
+11.Exercise6: Calculate the Golden Ratio from the continued fraction: $G(n) = 1 + \frac{1}{G(n -1)}$, with $G(1) = 1$; 
 
 
 12.Exercise7: Calculate the Greatest Common Divisor of a and b
 
-% from the recurrence relation: gcd(a, b) = gcd( b, rem(a,b) ), with gcd(a, 0) = a;  
+% from the recurrence relation: $gcd(a, b) = gcd( b, rem(a,b) )$, with $gcd(a, 0) = a$;  
 
 
 13.Exercise8:  Calculate the values in a row of the Pascal Triangle
@@ -218,7 +212,7 @@
 14.Exercise9: Construct NxN matrix of 0's and 1's in spiral pattern using recursion.  
 
 
-15.TryIt1: Calculate n factorial, n!, recursively.  
+15.TryIt1: Calculate $n$ factorial, $n!$, recursively.  
 
 
 16.TryIt2: Calculate the n-th Fibonacci number recursively.
@@ -244,22 +238,10 @@
 2.Exercise7b: Calculate n-th Fibonacci number iteratively expanding an array on each iteration.
 
 
-3.Exercise7c:Script testing execution time of function using predefined size of arrays (a)
-
-% and expanding array on each iteration (b).
+3.Exercise7c:Script testing execution time of function using predefined size of arrays (a) and expanding array on each iteration (b).
 
 
-4.TryIt1: Estimate complexity of a function based on its code. 
-
-% Estimated complexity: O(n^2).
-
-% and use Octave Profiling facilities to validate:
-
-% profile on;
-
-% ChapterTryIt1(1000);
-
-% profexport('Chapter7TryIt1', 'Function Profiling');
+4.TryIt1: Estimate complexity of a function based on its code. Estimated complexity: $O(n^2)$; and use Octave Profiling facilities to validate: `profile on; ChapterTryIt1(1000); profexport('Chapter7TryIt1', 'Function Profiling')`;
 
 
 5.TryIt2: calculate n-th Fibonacci using iterative implementation (with memoization?).  
@@ -268,9 +250,7 @@
 6.TryIt3: Estimate the compexity of n-th Fibonacci using recursive implementation.  
 
 
-7.TryIt4: Find number of possible division by 2
-
-% or n epxressed as 2^out and estimate complexity.
+7.TryIt4: Find number of possible division by 2 or n epxressed as 2^out and estimate complexity.
 
 
 8.TryIt5:Script comparing implemented vs built-in sum function using profiler.
@@ -287,9 +267,7 @@
 3.Exercise2: Convert a number from decimal to binary representation.  
 
 
-4.Exercise3:Script for verifying the validity of the functions
-
-% from Chapter8 Ex 1 and Ex2, based on their opposite actions.
+4.Exercise3:Script for verifying the validity of the functions from Chapter8 Ex 1 and Ex2, based on their opposite actions.
 
 
 5.Exercise4: Perform addition between binary numbers.  
@@ -303,26 +281,16 @@
 % using custom functions and the standard specifications.
 
 
-8.Exercise7ver: Convert a number from decimal to IEEE754 standard binary
-
-% using built-in functions.
+8.Exercise7ver: Convert a number from decimal to IEEE754 standard binary using built-in functions.
 
 
-9.Exercise8: Compare complexity (based on run time plot)  
-
-% of recursive and iterative implementations of functions returning Fibonacci Numbers.  
+9.Exercise8: Compare complexity (based on run time plot) of recursive and iterative implementations of functions returning Fibonacci Numbers.  
 
 
-10.TryIt1:Script demonstrating computer limited possibility of storing real numbers and 
-
-% its dependance on the value of the represented number:
-
-% the larger the number, the larger the gap (space between two
-
-% consecutive representable values).
+10.TryIt1:Script demonstrating computer limited possibility of storing real numbers and its dependance on the value of the represented number: the larger the number, the larger the gap (space between two consecutive representable values).
 
 
-11.TryIt2:Script showing IEEE754 single precision floating point representation: n = (-1)^(s) * e^(1 - 127) * (f + 1).
+11.TryIt2:Script showing IEEE754 single precision floating point representation: $n = (-1)^(s) * e^(1 - 127) * (f + 1)$.
 
 
 12.TryIt3:Script demonstrating double precision floating point overflow and how MATLAB / Octave is handling it.
@@ -368,13 +336,13 @@
 4.Exercise12: Plot a 3D parametric curve.
 
 
-5.Exercise12b:Script aplying: [ ] = myParametricPlotter(f, g, t)
+5.Exercise12b:Script aplying: `[ ] = myParametricPlotter(f, g, t)`.
 
 
-6.Exercise13: Plot contour or surf.  
+6.Exercise13: Plot contour or `surf`.  
 
 
-7.Exercise13b:Script applying [] = mySurfacePlotter(F, x, y, option).
+7.Exercise13b:Script applying `[] = mySurfacePlotter(F, x, y, option)`.
 
 
 8.Exercise2:Script drawing sublots with different axis scale of the same function.
@@ -383,61 +351,55 @@
 9.Exercise3:Script drawing two functions on same plot.
 
 
-10.Exercise4:Script comparing hist vs bar.
+10.Exercise4:Script comparing `hist` vs `bar`.
 
 
 11.Exercise5:Script drawing the student grade distribution as a pie chart.
 
 
-12.Exercise6:Script drawing four 3D suplots of: surf, mesh, contour and contourf.
+12.Exercise6:Script drawing four 3D suplots of: `surf`, `mesh`, `contour` and `contourf`.
 
 
 13.Exercise7: Plot a n-side regular polygon.  
 
 
-14.Exercise8: Use func2str to display a function formula on a plot.
+14.Exercise8: Use `func2str` to display a function formula on a plot.
 
 
-15.Exercise8b:Script testing myFunPlotter(f, x).
+15.Exercise8b:Script testing `myFunPlotter(f, x)`.
 
 
 16.Exercise9: Plot polynomials of various degrees.  
 
 
-17.Exercise9b:Script applying [] = myPolyPlotter(n, x)
+17.Exercise9b:Script applying `[] = myPolyPlotter(n, x)`.
 
 
-18.TryIt1:Script showing basic data visualization via function plot().
+18.TryIt1:Script showing basic data visualization via function `plot()`.
 
 
-19.TryIt10:Script showing 3D plotting and the use of function plot3().
+19.TryIt10:Script showing 3D plotting and the use of function `plot3()`.
 
 
-20.TryIt11:Script showing the use of meshgrid.
+20.TryIt11:Script showing the use of `meshgrid`.
 
 
-21.TryIt12:Script showing 3D graphs using surf and contour.
+21.TryIt12:Script showing 3D graphs using `surf` and `contour`.
 
 
-22.TryIt13:Script showing animation of sine wave by successive redrawing of a plot.
-
-% ctrl + C  to quit.
+22.TryIt13:Script showing animation of sine wave by successive redrawing of a plot; ctrl + C  to quit.
 
 
 23.TryIt14:Script showing animation created of successive frames and saved as movie.
 
 
-24.TryIt14b:Script showing animation created of successive frames which then are converted to movie with the help of other program.
-
-% Implementation using: ImageMagick/mencoder to manipulate the frames.
+24.TryIt14b:Script showing animation created of successive frames which then are converted to movie with the help of other program; Implementation using: ImageMagick/mencoder to manipulate the frames.
 
 
 25.TryIt2:Script showing a generating of data and displaying it as a function graph.
 
 
-26.TryIt3:Script showing a function graph with additional paramaters 
-
-% specifying line color and mark type.
+26.TryIt3:Script showing a function graph with additional paramaters specifying line color and mark type.
 
 
 27.TryIt4:Script showing plotting multiple data sets on same graph.
@@ -446,18 +408,16 @@
 28.TryIt5:Script showing the use of graph labels and title.
 
 
-29.TryIt6:Script showing the use of sprintf in title().
+29.TryIt6:Script showing the use of sprintf in `title()`.
 
 
-30.TryIt7:Script showing the use of legend()
+30.TryIt7:Script showing the use of `legend()`.
 
 
-31.TryIt8:Script showing the use of axis() and grid.
+31.TryIt8:Script showing the use of `axis()` and `grid`.
 
 
-32.TryIt9:Script for generating various subplots
-
-% and demonstrate the use of functions: subplot, plot, scatter, bar, loglog, semilogx, semilogy. 
+32.TryIt9:Script for generating various subplots and demonstrate the use of functions: `subplot`, `plot`, `scatter`, `bar`, `loglog`, `semilogx`, `semilogy`. 
 
 
 <h2>Chapter 12</h2>
