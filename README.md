@@ -24,7 +24,7 @@
 5.Exercise12: Calculate the area of a donut.  
 
 
-6.Exercise13: Find indexes of elements within array that satisfy: $$|A[i] - a| < eps$$.   
+6.Exercise13: Find indexes of elements within array that satisfy: $|A[i] - a| < eps$.   
 
 
 7.Exercise14: Modify the values of an array such that they satisfy: min < val < max. 
