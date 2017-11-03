@@ -1,13 +1,13 @@
-Repository Content:
+<h1>Repository Content:</h1>
 
 
 
-Chapter 1
+<h2>Chapter 1</h2>
 
 1.Exercise13: Implement Ramanujan’s formula for pi approximation.
 
 
-Chapter 3
+<h2>Chapter 3</h2>
 
 1.Example: Add three numbers.  
 
@@ -71,7 +71,7 @@ Chapter 3
 20.TryIt4:Script file for computing Cylinder Volume and Surface Area.
 
 
-Chapter 4
+<h2>Chapter 4</h2>
 
 1.Exercise1: Calculate the tip based on number of people and bill.  
 
@@ -112,7 +112,7 @@ Chapter 4
 13.TryIt3: Calculate area or circumference of circle based on argument value .  
 
 
-Chapter 5
+<h2>Chapter 5</h2>
 
 1.Exercise10: Find first N primes by trial division.   
 
@@ -162,7 +162,7 @@ Chapter 5
 16.TryIt1:Script for determining the number of additions in one processor clock cycle.
 
 
-Chapter 6
+<h2>Chapter 6</h2>
 
 1.Exercise1: Sum of array elements.   
 
@@ -236,7 +236,7 @@ Chapter 6
 20.TryIt5: Sort an integer array using Quick Sort - recursive.
 
 
-Chapter 7
+<h2>Chapter 7</h2>
 
 1.Exercise7a: Calculate n-th Fibonacci number iteratively using predefined size array.  
 
@@ -276,7 +276,7 @@ Chapter 7
 8.TryIt5:Script comparing implemented vs built-in sum function using profiler.
 
 
-Chapter 8
+<h2>Chapter 8</h2>
 
 1.Exercise1: Convert a number from binary to decimal representation.  
 
@@ -331,11 +331,11 @@ Chapter 8
 13.TryIt4:Script demonstrating underflow of double precision floating point number and how MATLAB /Octave is handling it.
 
 
-Chapter 9
+<h2>Chapter 9</h2>
 
 1.TryIt1: Demonstrate input type checking.  
 
-Chapter 10
+<h2>Chapter 10</h2>
 
 1.TryIt1:Script demonstrating the save and load functions; .mat files.
 
@@ -354,7 +354,7 @@ Chapter 10
 5.TryIt5:Script demonstrating reading a .xls file and the use of functions: xlsread().
 
 
-Chapter 11
+<h2>Chapter 11</h2>
 
 1.Exercise1:Script drawing a 2D plot of a cycloid.
 
@@ -460,7 +460,7 @@ Chapter 11
 % and demonstrate the use of functions: subplot, plot, scatter, bar, loglog, semilogx, semilogy. 
 
 
-Chapter 12
+<h2>Chapter 12</h2>
 
 1.Exercise2: Find if two vectors are orthogonal up to a specific accuracy.
 
@@ -549,7 +549,7 @@ Chapter 12
 % In particular, the case of unique solution.
 
 
-Chapter 13
+<h2>Chapter 13</h2>
 
 1.Exercise2: Least Square Regression (as a solution of System of Linear Equations).  
 
@@ -585,7 +585,7 @@ Chapter 13
 % to a data set using Least Squares Regression.
 
 
-Chapter 14
+<h2>Chapter 14</h2>
 
 1.Exercise1: Linear Interpolation.  
 
@@ -650,7 +650,7 @@ Chapter 14
 21.TryIt4:Script showing interpolation using Lagrange Polynomials.
 
 
-Chapter 15
+<h2>Chapter 15</h2>
 
 1.Exercise3:  Function e^{x^2} approximation through Taylor Series Expansion
 
@@ -694,7 +694,7 @@ Chapter 15
 % and its range of validity around the point of expansion.
 
 
-Chapter 16
+<h2>Chapter 16</h2>
 
 1.Exercise1: Approximate the N-th root of x using the Newton-Raphson method.  
 
@@ -766,7 +766,7 @@ Chapter 16
 % In particular, the instability of convergence leading to unintended root, away from the initial guess.
 
 
-Chapter 17
+<h2>Chapter 17</h2>
 
 1.Exercise1: Implement forward, central and backward Finite Difference Method
 
@@ -797,7 +797,7 @@ Chapter 17
 % the error of Finite Difference Function Derivatives Approximation.
 
 
-Chapter 18
+<h2>Chapter 18</h2>
 
 1.Exercise1: Numerically Approximate the Integral of a function.
 
@@ -850,7 +850,7 @@ Chapter 18
 13.TryIt6:Script demonstrating approximation of Integrals using built-in functions.
 
 
-Chapter 19
+<h2>Chapter 19</h2>
 
 1.Exercise1: Represent Logistic Equation.
 
