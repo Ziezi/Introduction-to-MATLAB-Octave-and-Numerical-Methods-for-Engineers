@@ -191,9 +191,7 @@
 % from the recurrence relation: $C(n, k) = C(n - 1, k - 1) + C(n - 1, k)$, with $C(j, j) = 1$ and $C(n, 0) = 1$.
 
 
-10.Exercise5: Express amount of money in terms of the values
-
-% in dollar denominations: banknotes: 100, 50, 20, 10, 5, 1; coins: 0.25, 0.10, 0.05, 0.01.
+10.Exercise5: Express amount of money in terms of the values in dollar denominations: banknotes: 100, 50, 20, 10, 5, 1; coins: 0.25, 0.10, 0.05, 0.01.
 
 
 11.Exercise6: Calculate the Golden Ratio from the continued fraction: $G(n) = 1 + \frac{1}{G(n -1)}$, with $G(1) = 1$; 
@@ -290,7 +288,7 @@
 10.TryIt1:Script demonstrating computer limited possibility of storing real numbers and its dependance on the value of the represented number: the larger the number, the larger the gap (space between two consecutive representable values).
 
 
-11.TryIt2:Script showing IEEE754 single precision floating point representation: $n = (-1)^(s) * e^(1 - 127) * (f + 1)$.
+11.TryIt2:Script showing IEEE754 single precision floating point representation: $n = (-1)^{(s)} * e^{(1 - 127)} * (f + 1)$.
 
 
 12.TryIt3:Script demonstrating double precision floating point overflow and how MATLAB / Octave is handling it.
