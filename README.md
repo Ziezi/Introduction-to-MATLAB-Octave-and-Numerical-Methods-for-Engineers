@@ -98,7 +98,7 @@
 9.Exercise8: Find the roots of a quadratic equation over \mathcal{C}.  
 
 
-10.Exercise9: Define a piecewise function according to: $f(x) if x <= a; g(x) if x >= b$, and $0$ otherwise. 
+10.Exercise9: Define a piecewise function according to: $f(x)$ if $x <= a$; $g(x)$ if $x >= b$, and $0$ otherwise. 
 
 
 11.TryIt1: Make a thermostat switch based on temperature readings.  
