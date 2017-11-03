@@ -12,7 +12,7 @@
 1.Example: Add three numbers.  
 
 
-2.Exercise1: Calculate sinh(x).
+2.Exercise1: Calculate `sinh(x)`.
 
 
 3.Exercise10: generate variety or error messages. 
@@ -24,7 +24,7 @@
 5.Exercise12: Calculate the area of a donut.  
 
 
-6.Exercise13: Find indexes of elements within array that satisfy: |A[i] - a| < eps.   
+6.Exercise13: Find indexes of elements within array that satisfy: $$|A[i] - a| < eps$$.   
 
 
 7.Exercise14: Modify the values of an array such that they satisfy: min < val < max. 
