@@ -15,3 +15,7 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+
+Ch19Ex2Frames/* linguist-vendored
+Chapter7TryIt1/* linguist-vendored
+output/* linguist-vendored
