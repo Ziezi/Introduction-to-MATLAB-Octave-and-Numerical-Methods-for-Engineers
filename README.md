@@ -186,9 +186,7 @@
 8.Exercise3: Obtain Ackerman function from the recurrence relation: $A(x,y) = A(x - 1, A(x, y - 1))$, with $A(0,y) = y + 1$ and $A(x, 0) = A(x - 1, 1)$.  
 
 
-9.Exercise4: Calculate combinations of k elements out of set containing n.
-
-% from the recurrence relation: $C(n, k) = C(n - 1, k - 1) + C(n - 1, k)$, with $C(j, j) = 1$ and $C(n, 0) = 1$.
+9.Exercise4: Calculate combinations of k elements out of set containing n from the recurrence relation: $C(n, k) = C(n - 1, k - 1) + C(n - 1, k)$, with $C(j, j) = 1$ and $C(n, 0) = 1$.
 
 
 10.Exercise5: Express amount of money in terms of the values in dollar denominations: banknotes: 100, 50, 20, 10, 5, 1; coins: 0.25, 0.10, 0.05, 0.01.
@@ -197,14 +195,10 @@
 11.Exercise6: Calculate the Golden Ratio from the continued fraction: $G(n) = 1 + \frac{1}{G(n -1)}$, with $G(1) = 1$; 
 
 
-12.Exercise7: Calculate the Greatest Common Divisor of a and b
-
-% from the recurrence relation: $gcd(a, b) = gcd( b, rem(a,b) )$, with $gcd(a, 0) = a$;  
+12.Exercise7: Calculate the Greatest Common Divisor of a and b from the recurrence relation: $gcd(a, b) = gcd( b, rem(a,b) )$, with $gcd(a, 0) = a$;  
 
 
-13.Exercise8:  Calculate the values in a row of the Pascal Triangle
-
-% or coefficients of m-th order binomial  (polynomial) equation.
+13.Exercise8:  Calculate the values in a row of the Pascal Triangle or coefficients of m-th order binomial  (polynomial) equation.
 
 
 14.Exercise9: Construct NxN matrix of 0's and 1's in spiral pattern using recursion.  
@@ -274,9 +268,7 @@
 6.Exercise6: Convert a IEEE754 floating point to decimal.
 
 
-7.Exercise7: Construct a IEEE754 binary representation from number in base10
-
-% using custom functions and the standard specifications.
+7.Exercise7: Construct a IEEE754 binary representation from number in base10 using custom functions and the standard specifications.
 
 
 8.Exercise7ver: Convert a number from decimal to IEEE754 standard binary using built-in functions.
@@ -303,21 +295,19 @@
 
 <h2>Chapter 10</h2>
 
-1.TryIt1:Script demonstrating the save and load functions; .mat files.
+1.TryIt1:Script demonstrating the save and load functions; `.mat` files.
 
 
-2.TryIt2:Script demonstrating writing to a .txt file; using functions: fopen, fprintf, fclose.
+2.TryIt2:Script demonstrating writing to a `.txt` file; using functions: `fopen`, `fprintf`, `fclose`.
 
 
-3.TryIt3:Script demonstrating reading from a .txt file and using functions: fopen, fgetl and str2num.
+3.TryIt3:Script demonstrating reading from a `.txt` file and using functions: `fopen`, `fgetl` and `str2num`.
 
 
-4.TryIt4:Script demonstrating writing to Microsoft Excel files, .xls and the use of function: xlswrite.
-
-% Error message due to bug made me add the line: r_extnd = 0; in the beginning of function: xlswwrite.m in: io package.
+4.TryIt4:Script demonstrating writing to Microsoft Excel files, .xls and the use of function: `xlswrite`. Error message due to bug made me add the line: `r_extnd = 0;` in the beginning of function: `xlswwrite.m` in: `io package`.
 
 
-5.TryIt5:Script demonstrating reading a .xls file and the use of functions: xlsread().
+5.TryIt5:Script demonstrating reading a `.xls` file and the use of functions: `xlsread()`.
 
 
 <h2>Chapter 11</h2>
@@ -423,7 +413,7 @@
 1.Exercise2: Find if two vectors are orthogonal up to a specific accuracy.
 
 
-2.Exercise2b:Script applying myIsOrthogonal(v1, v2, tol).
+2.Exercise2b:Script applying `myIsOrthogonal(v1, v2, tol)`.
 
 
 3.Exercise3: Find if two string are similar (additionally showing Cosine Similarity.)
@@ -432,53 +422,43 @@
 4.Exercise4: Find linear independent columns. (basis) of a matrix.  
 
 
-5.Exercise4b:Script tesing myMakeLinInd()
+5.Exercise4b:Script tesing `myMakeLinInd()`.
 
 
-6.Exercise5: Calculate determinant of a matrix
-
-% using recursive Cramer's Rule of expanding into minors.
+6.Exercise5: Calculate determinant of a matrix using recursive Cramer's Rule of expanding into minors.
 
 
-7.Exercise5b:Script applying [D] = myRecDec(M) and comparing it to the built-in: det().
+7.Exercise5b:Script applying `[D] = myRecDec(M)` and comparing it to the built-in: `det()`.
 
 
-8.Exercise7: Calculate derivative of a polynomial.
-
-% (differentiating / integrating of polynomials is a linear transformation.)
+8.Exercise7: Calculate derivative of a polynomial. (differentiating / integrating of polynomials is a linear transformation.)
 
 
 9.Exercise8: Solve a system of linear equations. Cover all possibilities. 
 
 
-10.Exercise8b:Script applying [N, x] = myNumSols (A, b).
+10.Exercise8b:Script applying `[N, x] = myNumSols (A, b)`.
 
 
 11.Exercise9: Determine power flow along a network edges, based on power generation and demand nodes.  
 
 
-12.Exercise9b:Script applying [f] = myFlowCalculator(S, d)
+12.Exercise9b:Script applying `[f] = myFlowCalculator(S, d)`.
 
 
-13.TryIt1:Script showing the use of function norm().
+13.TryIt1:Script showing the use of function `norm()`.
 
 
 14.TryIt10:Script showing a validation of the method for Solving a Linear System of Equations.
 
 
-15.TryIt11:Script showing Method for finding Solutions of System of Linear Equations.
-
-% In particular, the case of overdetermined system with existing solution.
+15.TryIt11:Script showing Method for finding Solutions of System of Linear Equations. In particular, the case of overdetermined system with existing solution.
 
 
-16.TryIt12:Script showing Method for finding Solutions of System of Linear Equations.
-
-% In particular, the case of infinite numer of solutions.
+16.TryIt12:Script showing Method for finding Solutions of System of Linear Equations. In particular, the case of infinite numer of solutions.
 
 
-17.TryIt13:Script demonstrating that a linear combination of solutions of Ax = y 
-
-% and null space vectors of A are still solutions.
+17.TryIt13:Script demonstrating that a linear combination of solutions of $Ax = y$ and null space vectors of A are still solutions.
 
 
 18.TryIt2:Script calculating the angle between two vectors.
@@ -493,7 +473,7 @@
 21.TryIt5:Script showing matrix multiplication error due to inner-dimension mismatch.
 
 
-22.TryIt6:Script showing det() and the effect of the identity matrix in multiplication.
+22.TryIt6:Script showing `det()` and the effect of the identity matrix in multiplication.
 
 
 23.TryIt7:Script showing the use of determinants for finding if matrix is singular; inverse matrices.
@@ -502,9 +482,7 @@
 24.TryIt8:Script showing Method for checking if a System of Linear Equations has a solution.
 
 
-25.TryIt9:Script showing Method for finding Solutions of System of Linear Equations.
-
-% In particular, the case of unique solution.
+25.TryIt9:Script showing Method for finding Solutions of System of Linear Equations. In particular, the case of unique solution.
 
 
 <h2>Chapter 13</h2>
@@ -512,35 +490,25 @@
 1.Exercise2: Least Square Regression (as a solution of System of Linear Equations).  
 
 
-2.Exercise2b:Script applying [Beta] = myLSParams (f, x, y)
+2.Exercise2b:Script applying `[Beta] = myLSParams (f, x, y)`.
 
 
 3.Exercise3: Least Square Regression with linearized exponential functions.  
 
 
-4.Exercise3b:Script applying [alpha, beta] = myExpFit (x,y).
+4.Exercise3b:Script applying `[alpha, beta] = myExpFit (x,y)`.
 
 
-5.Exercise5:Script applying [beta] = myLinRegression (f, x, y), which is same as Chapter13Exercise2(f, x, y).
+5.Exercise5:Script applying `[beta] = myLinRegression (f, x, y)`, which is same as `Chapter13Exercise2(f, x, y)`.
 
 
-6.Exercise6:Script applying [alpha, beta] = myExpRegression (x,y), same as Chapter13Exercise3(x,y).
+6.Exercise6:Script applying `[alpha, beta] = myExpRegression (x,y)`, same as `Chapter13Exercise3(x,y)`.
 
 
-7.TryIt1:Script demonstrating the equivalent use of 
-
-% x = A \ y;
-
-% x = pinv(A) * y;
-
-% x = inv(A' * A) * A' * y;
+7.TryIt1:Script demonstrating the equivalent use of `x = A \ y`; x = pinv(A) * y; `x = inv(A' * A) * A' * y`;
 
 
-8.TryIt2:Script demonstrating fitting a line 
-
-% modeled by the estimation function y = alpha_1 * x + alpha_2
-
-% to a data set using Least Squares Regression.
+8.TryIt2:Script demonstrating fitting a line modeled by the estimation function $y = \alpha * x + \beta$ to a data set using Least Squares Regression.
 
 
 <h2>Chapter 14</h2>
@@ -548,31 +516,31 @@
 1.Exercise1: Linear Interpolation.  
 
 
-2.Exercise1b:Script applying [Y] = myNearestNeighbor (x, y, X).
+2.Exercise1b:Script `applying [Y] = myNearestNeighbor (x, y, X)`.
 
 
 3.Exercise2: Cubic Spline Interpolation.   
 
 
-4.Exercise2b:Script applying [Y] = MyCubicSpline(x, y, X).
+4.Exercise2b:Script applying `[Y] = MyCubicSpline(x, y, X)`.
 
 
 5.Exercise3: Nearest Neighbor Interpolation.  
 
 
-6.Exercise3b:Script applying [Y] = myNearestNeighbor (x, y, X).
+6.Exercise3b:Script applying `[Y] = myNearestNeighbor (x, y, X)`.
 
 
 7.Exercise5: Cubic Spline (Flat) Interpolation (constraints on end points equal to 0).
 
 
-8.Exercise5b:Script comparing  [Y] = MyCubicSplineFlat(x, y, X) and [Y] = MyCubicSpline(x, y, X).
+8.Exercise5b:Script comparing  `[Y] = MyCubicSplineFlat(x, y, X)` and `[Y] = MyCubicSpline(x, y, X)`.
 
 
 9.Exercise6: Quintic Spline Interpolation.   
 
 
-10.Exercise6b:Script applying [Y] = MyQinticSpline(x, y, X).
+10.Exercise6b:Script applying `[Y] = MyQinticSpline(x, y, X)`.
 
 
 11.Exercise7: Plot interpolated data using method specified by argument value.  
@@ -581,19 +549,19 @@
 12.Exercise7: Plot interpolated data using method specified by argument value. Use built-in functions.
 
 
-13.Exercise7b:Script applying [ ] = myInterpPlotter (x, y, X, option)
+13.Exercise7b:Script applying `[ ] = myInterpPlotter (x, y, X, option)`.
 
 
 14.Exercise8: Cubic Spline Interpolation with slope at end points specified by argument value.
 
 
-15.Exercise8b:Script applying [Y] =myDCubicSpline (x, y, X, D).
+15.Exercise8b:Script applying `[Y] =myDCubicSpline (x, y, X, D)`.
 
 
 16.Exercise9: Lagrange Polynomial Interpolation. 
 
 
-17.Exercise9b:Script applying [Y] = myLagrange(x,y,X).
+17.Exercise9b:Script applying `[Y] = myLagrange(x,y,X)`.
 
 
 18.TryIt1:Script showing Linear Interpolation.
@@ -610,46 +578,40 @@
 
 <h2>Chapter 15</h2>
 
-1.Exercise3:  Function e^{x^2} approximation through Taylor Series Expansion
+1.Exercise3:  Function $e^{x^2}$ approximation through Taylor Series Expansion.
 
 
 2.Exercise3b:Script comparing the values of a function and its Taylor approximation.
 
 
-3.Exercise4: Function e^{x} approximation through Taylor Series Expansion.    
+3.Exercise4: Function $e^{x}$ approximation through Taylor Series Expansion.    
 
 
 4.Exercise4b:Script comparing the values of a function and its Taylor approximation.
 
 
-5.Exercise5b:Script comparing the errors of Taylor approximations of 
-
-% the function: f(x) = sin(x) * cos(x) as sum of product and product of sum.
+5.Exercise5b:Script comparing the errors of Taylor approximations of the function: $f(x) = sin(x) * cos(x)$ as sum of product and product of sum.
 
 
-6.Exercise5c: Approximation of  cos(x) by Taylor Series Expansion.  
+6.Exercise5c: Approximation of  $cos(x)$ by Taylor Series Expansion.  
 
 
-7.Exercise5s: Approximation of  sin(x) by Taylor Series Expansion.  
+7.Exercise5s: Approximation of  $sin(x)$ by Taylor Series Expansion.  
 
 
-8.Exercise5sc: Approximation of  sin(x) * cos(x) by Taylor Series Expansion.  
+8.Exercise5sc: Approximation of  $sin(x) * cos(x)$ by Taylor Series Expansion.  
 
 
-9.Exercise6:Script showing 3rd order Taylor approximation of cosh(x) as: (e^x + e^{-x}) / 2, expanded around a = 0.
+9.Exercise6:Script showing 3rd order Taylor approximation of $cosh(x)$ as: $\frac{e^x + e^{-x}}{2}$, expanded around $a = 0$.
 
 
-10.TryIt1:Script producing a graph of the Taylor expansion (till 3rd term) of the function sin(x) between -pi and pi.
+10.TryIt1:Script producing a graph of the Taylor expansion (till 3rd term) of the function sin(x) between $-\pi$ and $\pi$.
 
 
-11.TryIt2:Script comparing an approximated function value
-
-% using up to 7th order Taylor expansion with exact value.
+11.TryIt2:Script comparing an approximated function value using up to 7th order Taylor expansion with exact value.
 
 
-12.TryIt3:Script demonstrating the use of linear approximation (1st order or till 1st term)
-
-% and its range of validity around the point of expansion.
+12.TryIt3:Script demonstrating the use of linear approximation (1st order or till 1st term) and its range of validity around the point of expansion.
 
 
 <h2>Chapter 16</h2>
@@ -657,102 +619,80 @@
 1.Exercise1: Approximate the N-th root of x using the Newton-Raphson method.  
 
 
-2.Exercise2: Find interval of values where f(x) == g(x) 
+2.Exercise2: Find interval of values where $f(x) == g(x)$. 
 
-% using the Bisection Method with error metric: |F(m)| < tol.
-
-
-3.Exercise2b:Script applying [X] = myFixedPoints (f, g, tol, maxiter).
+% using the Bisection Method with error metric: $|F(m)| < tol$.
 
 
-4.Exercise4: Show root approximation and error 
-
-% in each successive step in finding root of f in [a,b]
-
-% using the Bysection Method.   
+3.Exercise2b:Script applying `[X] = myFixedPoints (f, g, tol, maxiter)`.
 
 
-5.Exercise4b:Script applying [R, E] = myBisection (f, a, b, tol).
+4.Exercise4: Show root approximation and error in each successive step in finding root of $f$ in $[a,b]$ using the Bysection Method.   
 
 
-6.Exercise5: Store successive root approximations and errors
-
-% of f around x0 using the Newton-Raphson method.  
+5.Exercise4b:Script applying `[R, E] = myBisection (f, a, b, tol)`.
 
 
-7.Exercise5b:Script applying [R, E] = myNewton (f, df, x0, tol)
+6.Exercise5: Store successive root approximations and errors of $f$ around $x_0$ using the Newton-Raphson method.  
 
 
-8.Exercise6: Minimize the cost of a pipeline (in terms of the value x).
+7.Exercise5b:Script applying `[R, E] = myNewton (f, df, x0, tol)`.
 
 
-9.Exercise6b:Script for applying  [x] = myPipeBuilder (C_ocean, C_land, L, H); compared against built-in function.
+8.Exercise6: Minimize the cost of a pipeline (in terms of the value $x$).
+
+
+9.Exercise6b:Script for applying  `[x] = myPipeBuilder (C_ocean, C_land, L, H)`; compared against built-in function.
 
 
 10.Exercise7:Script finding a value for which the Newton step of a function oscillates indefinitely.
 
 
-11.TryIt1:Script demonstrating function root approximation using fzero().
+11.TryIt1:Script demonstrating function root approximation using `fzero()`.
 
 
-12.TryIt2:Script demonstrating function root approximation using fzero().
+12.TryIt2:Script demonstrating function root approximation using `fzero()`.
 
 
-13.TryIt3: Find root of f in [a,b] with accuracy
-
-% up to: tol using the Bysection Method.  
+13.TryIt3: Find root of f in $[a,b]$ with accuracy up to: `tol` using the Bysection Method.  
 
 
 14.TryIt4:Script showing Function Root Finding via Bisection Method.
 
 
-15.TryIt5: Find root of f around x0 with 
-
-% accuracy up to: tol, using the Newton-Raphson Method.  
+15.TryIt5: Find root of $f$ around $x_0$ with accuracy up to: `tol`, using the Newton-Raphson Method.  
 
 
-16.TryIt5b:Script demonstrating [R] = myNewton (f, dx, x0, tol).
+16.TryIt5b:Script demonstrating `[R] = myNewton (f, dx, x0, tol)`.
 
 
-17.TryIt6:Script showing limitations of Newton-Raphson method.
-
-% In particular derivative of a function that evaluates close to 0.
+17.TryIt6:Script showing limitations of Newton-Raphson method. In particular derivative of a function that evaluates close to 0.
 
 
-18.TryIt7:Script showing limitations of Newton-Raphson method.
-
-% In particular, the instability of convergence leading to unintended root, away from the initial guess.
+18.TryIt7:Script showing limitations of Newton-Raphson method. In particular, the instability of convergence leading to unintended root, away from the initial guess.
 
 
 <h2>Chapter 17</h2>
 
-1.Exercise1: Implement forward, central and backward Finite Difference Method
-
-% for approximating derivative of a function evaluated on 1D grid of size N within [a, b].
+1.Exercise1: Implement forward, central and backward Finite Difference Method for approximating derivative of a function evaluated on 1D grid of size $N$ within $[a, b]$.
 
 
-2.Exercise1b:Script applying [df, X] = myDerCalc (f, a, b, N, option).
+2.Exercise1b:Script applying `[df, X] = myDerCalc (f, a, b, N, option)`.
 
 
-3.Exercise2b:Script applying [dy, X] = myNumDiff(f, a, b, n, option) (same as in Exercise 1).
+3.Exercise2b:Script applying `[dy, X] = myNumDiff(f, a, b, n, option)` (same as in Exercise 1).
 
 
-4.Exercise3: Smooth function values from a 1D grid
-
-% and use them to approximate function derivative. 
+4.Exercise3: Smooth function values from a 1D grid and use them to approximate function derivative. 
 
 
-5.Exercise3b:Script applying [dy, X] = myNumDiffwSmoothing (x, y, n).
+5.Exercise3b:Script applying `[dy, X] = myNumDiffwSmoothing (x, y, n)`.
 
 
-6.TryIt1:Script demonstrating derivative approximation by
-
-% calculating function value differences on a 1D grid.
+6.TryIt1:Script demonstrating derivative approximation by calculating function value differences on a 1D grid.
 
 
-7.TryIt2:Script showing the relation between grid spacing and 
-
-% the error of Finite Difference Function Derivatives Approximation.
+7.TryIt2:Script showing the relation between grid spacing and the error of Finite Difference Function Derivatives Approximation.
 
 
 <h2>Chapter 18</h2>
@@ -760,52 +700,40 @@
 1.Exercise1: Numerically Approximate the Integral of a function.
 
 
-2.Exercise2: Implement Simpson's Method: Interpolate the input sample using Lagrange Polynomial
-
-% and Return Approximation of the area under the curve in the interval [x_1, x_n].
+2.Exercise2: Implement Simpson's Method: Interpolate the input sample using Lagrange Polynomial and Return Approximation of the area under the curve in the interval $[x_1, x_n]$.
 
 
 3.Exercise4: Numerically Approximate the Integral of a function.
 
 
-4.Exercise4b:Script applying [I] = myNumInt(f, a, b, n, option) on few test cases.
+4.Exercise4b:Script applying `[I] = myNumInt(f, a, b, n, option)` on few test cases.
 
 
-5.Exercise5:
-
-%   Calculate the coefficients of the n-th term in Fourier Series.
+5.Exercise5: Calculate the coefficients of the n-th term in Fourier Series.
 
 
-6.Exercise5a: 
-
-%   Apply [An, Bn] = myFourierCoeff (f, n) and
-
-%   plot the result along with exact function value.
+6.Exercise5a: Apply `[An, Bn] = myFourierCoeff (f, n)` an plot the result along with exact function value.
 
 
-7.Exercise5b:Script applying [An, Bn] = myFourierCoeff (f, n) on few test cases.
+7.Exercise5b: Script applying `[An, Bn] = myFourierCoeff (f, n)` on few test cases.
 
 
-8.TryIt1:Script demonstrating Numerical Integration Methods: Riemann, Midpoint Method.
-
-% Approximate the integral of sin(x) in [a, b].
+8.TryIt1: Script demonstrating Numerical Integration Methods: Riemann, Midpoint Method. Approximate the integral of $sin(x)$ in $[a, b]$.
 
 
-9.TryIt2:Script demonstrating integral approximation using Trapezoid Rule.
+9.TryIt2: Script demonstrating integral approximation using Trapezoid Rule.
 
 
-10.TryIt3:Script demonstrating Integration Approximation using Simpson's Rule.
+10.TryIt3: Script demonstrating Integration Approximation using Simpson's Rule.
 
 
-11.TryIt4:Script comparing Built-in vs Custom Trapezoidal Rule implementation
-
-% for approximating Integrals of functions.
+11.TryIt4: Script comparing Built-in vs Custom Trapezoidal Rule implementation for approximating Integrals of functions.
 
 
-12.TryIt5:Script demonstrating approximation of a Cumulative Integral using built-in functions.
+12.TryIt5: Script demonstrating approximation of a Cumulative Integral using built-in functions.
 
 
-13.TryIt6:Script demonstrating approximation of Integrals using built-in functions.
+13.TryIt6: Script demonstrating approximation of Integrals using built-in functions.
 
 
 <h2>Chapter 19</h2>
@@ -813,59 +741,49 @@
 1.Exercise1: Represent Logistic Equation.
 
 
-2.Exercise1b:Script comparing approximation and analytic solution to the Logistis Equation.
+2.Exercise1b: Script comparing approximation and analytic solution to the Logistis Equation.
 
 
-3.Exercise2: Represent the Lorenz Equation, 
-
-% which is a simplified system of equations describing the 2D flow of fluid.
+3.Exercise2: Represent the Lorenz Equation, which is a simplified system of equations describing the 2D flow of fluid.
 
 
-4.Exercise2a: Solve the Lorenz Equation using ode45.
+4.Exercise2a: Solve the Lorenz Equation using `ode45`.
 
 
-5.Exercise2b:Script showing a plot of a solution of the Lorenz Equation.
-
-% and creating a simulation (animation) of particle trajectory (Lorenz Attractor).
+5.Exercise2b: Script showing a plot of a solution of the Lorenz Equation; creating a simulation (animation) of particle trajectory (Lorenz Attractor).
 
 
-6.Exercise3: Represent Mass-Spring-Damper system
-
-% by reducing the order of the ODE describing it.
+6.Exercise3: Represent Mass-Spring-Damper system by reducing the order of the ODE describing it.
 
 
-7.Exercise3b:Script showing a plot of the solutions to the Mass-Spring-Damper system
-
-% in the cases of: no damping, underdapming, critical damping and overdamping.
+7.Exercise3b: Script showing a plot of the solutions to the Mass-Spring-Damper system in the cases of: no damping, underdapming, critical damping and overdamping.
 
 
-8.Exercise4:  Implement Forward Euler method for ODE integration.
+8.Exercise4: Implement Forward Euler method for ODE integration.
 
 
-9.Exercise4b:Script applying [T, S] = myForwardEuler (dS, tSpan, S0)
-
-% and comparing it to ode45 and the exact solution.
+9.Exercise4b: Script applying `[T, S] = myForwardEuler (dS, tSpan, S0)` and comparing it to ode45 and the exact solution.
 
 
 10.Exercise5: Implement fourth order Runge-Kutta method for ODE integration.
 
 
-11.Exercise5b:Script applying [T, S] = myRK4(dS, tSpan, S0) and comparing it to ode45.
+11.Exercise5b:Script applying `[T, S] = myRK4(dS, tSpan, S0)` and comparing it to `ode45`.
 
 
-12.TryIt1:Script demonstrating Euler Approximation for Exponential Function.
+12.TryIt1: Script demonstrating Euler Approximation for Exponential Function.
 
 
-13.TryIt2:Script demonstrating Numerical Stability of ODEs Integration schemes.
+13.TryIt2: Script demonstrating Numerical Stability of ODEs Integration schemes.
 
 
-14.TryIt3:Script demonstrating built-in ODE solvers and their approximation error.
+14.TryIt3: Script demonstrating built-in ODE solvers and their approximation error.
 
 
-15.TryIt4:Script demonstrating built-in ODE solvers and their approximation error.
+15.TryIt4: Script demonstrating built-in ODE solvers and their approximation error.
 
 
-16.TryIt5:Script demonstrating built-in ODE solver: ode45.
+16.TryIt5: Script demonstrating built-in ODE solver: `ode45`.
 
 ---
 
