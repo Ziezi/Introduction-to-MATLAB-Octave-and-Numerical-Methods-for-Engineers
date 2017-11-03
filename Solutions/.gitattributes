@@ -16,6 +16,7 @@
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
 
+# Ignore files in the following folders (contributing in statistics describing the content of the repository).  
 Ch19Ex2Frames/* linguist-vendored
 Chapter7TryIt1/* linguist-vendored
 output/* linguist-vendored
