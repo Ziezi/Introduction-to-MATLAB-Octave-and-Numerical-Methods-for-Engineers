@@ -118,7 +118,7 @@
 2.Exercise11: Find first N Fibonacci that are also Primes.
 
 
-3.Exercise12: Create a matrix, $Q$, where if $M(i,j)$ - even, $Q(i,j) = sin( pi / M(i, j) )$; $cos( pi / M(i, j) )$ otherwise.     
+3.Exercise12: Create a matrix, $Q$, where if $M(i,j)$ - even, $Q(i,j) = sin( p_i / M(i, j) )$; $cos( p_i / M(i, j) )$ otherwise.     
 
 
 4.Exercise13: Construct a Adjacency List from Adjacency Matrix (from nodes of unidirected graph). 
@@ -177,7 +177,7 @@
 5.Exercise15: Sort an integer array using iterative Quick Sort.  
 
 
-6.Exercise2: Obtain $T_n(x)$ (n-th Chebyshev polynomial of 1st kind) from the recurrence relation: $T_n(x) = 2*x*T_n-1(x) + T_n-2(x)$, with: $T_0 = 1, T_1 = x$.   
+6.Exercise2: Obtain $T_n(x)$ (n-th Chebyshev polynomial of 1st kind) from the recurrence relation: $T_n(x) = 2 * x * T_n-1(x) + T_n-2(x)$, with: $T_0 = 1, T_1 = x$.   
 
 
 7.Exercise2b: Script for ploting various orders of Chebyshev Polynomials of first kind
