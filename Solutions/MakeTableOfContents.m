@@ -1,4 +1,4 @@
-% Script making Table of Contents consited of 
+% Script making Table of Contents consisted of 
 % a brief description of each .m file, along with
 % information regarding the Chapter and Exercise it belongs to.  
 % Author: Chris B. Kirov
