@@ -95,7 +95,7 @@
 8.Exercise7: Verify if sensor readings are measuring same variable.
 
 
-9.Exercise8: Find the roots of a quadratic equation over \mathcal{C}.  
+9.Exercise8: Find the roots of a quadratic equation over $\mathcal{C}$.  
 
 
 10.Exercise9: Define a piecewise function according to: $f(x)$ if $x <= a$; $g(x)$ if $x >= b$, and $0$ otherwise. 
