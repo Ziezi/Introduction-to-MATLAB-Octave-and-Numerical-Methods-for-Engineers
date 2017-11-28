@@ -118,7 +118,7 @@
 2.Exercise11: Find first N Fibonacci that are also Primes.
 
 
-3.Exercise12: Create a matrix, $Q$, where if $M(i,j)$ - even, $Q(i,j) = sin( p_i / M(i, j) )$; $cos( p_i / M(i, j) )$ otherwise.     
+3.Exercise12: Create a matrix, $Q$, where if $M(i,j)$ - even, $Q(i,j) = sin( p_i / M(i, j) )$; $cos( p_i / M(i, j) )$ (Schläfli matrix ?) otherwise.     
 
 
 4.Exercise13: Construct a Adjacency List from Adjacency Matrix (from nodes of unidirected graph). 
