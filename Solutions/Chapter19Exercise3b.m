@@ -14,11 +14,11 @@ S0 = [x0; u0];
 % Solve the ODE.
 c = 0;                                                                      % no damping.
 [T1, S1] = ode45(@Chapter19Exercise3, t, S0, m,  c, k);
-c = 1;                                                                      % underdamping.
+c = 2 * sqrt(k * m)  - 5;         									% under damping.
 [T2, S2] = ode45(@Chapter19Exercise3, t, S0, m,  c, k);
-c = 2 * sqrt(k * m);                                               % critical damping.
+c = 2 * sqrt(k * m);                                                 % critical damping.
 [T3, S3] = ode45(@Chapter19Exercise3, t, S0, m,  c, k);
-c = k + 5;                                                               % overdamping.
+c = 2 * sqrt(k * m)  + 5;         									% over damping.
 [T4, S4] = ode45(@Chapter19Exercise3, t, S0, m,  c, k);
 
 % Draw displacement of the MSD system.
